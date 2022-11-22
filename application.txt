@@ -1,0 +1,9 @@
+App(
+    appid="flipper_air_tag",
+    name="Air Tag",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="flipper_air_tag_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    icon="A_Plugins_14",
+)
